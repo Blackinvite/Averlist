@@ -1,10 +1,3 @@
-// Добавьте в начало файла
-export const getStaticProps = async () => {
-  return {
-    props: {}, // Пустые пропсы
-    revalidate: 60 // ISR - пересборка каждые 60 секунд
-  }
-}
 import { GetStaticProps } from 'next'
 
 import { Home } from '@pages/Home'
